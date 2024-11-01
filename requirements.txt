@@ -1,0 +1,29 @@
+
+# Python Dependencies
+requests==2.31.0
+pyspark==3.4.0
+delta-spark==2.4.0
+
+# Python Version
+# Requires Python 3.12.4
+
+# Java Version
+# Requires Java OpenJDK 11.0.25
+
+# Setup Instructions
+
+# Prerequisites
+# Python Version: Python 3.12.4
+# Java Version: openjdk 11.0.25
+
+# Setting up the Environment
+# 1. Install Python 3.12.4 and create a virtual environment:
+#    python3.12 -m venv venv
+#    source venv/bin/activate
+#
+# 2. Install Java: Ensure that Java 11 (openjdk 11.0.25) is installed and set as the default:
+#    export JAVA_HOME=/path/to/openjdk11
+#    export PATH=$JAVA_HOME/bin:$PATH
+#
+# 3. Install Python Dependencies:
+#    pip install -r requirements.txt
