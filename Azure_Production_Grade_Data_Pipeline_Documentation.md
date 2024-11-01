@@ -73,15 +73,11 @@ The goal is to create a secure, reliable, and scalable data ingestion and wareho
 
 - **Apache Airflow**: An open-source workflow orchestration tool used to schedule and manage data workflows, integrating well with Azure for flexible scheduling and detailed logging.
 
----
 
-## 6. Diagram of the Azure Data Pipeline Architecture
-
-Refer to the attached diagram that illustrates each component and their connections within the Azure data pipeline.
 
 ---
 
-## 7. Summary
+## 6. Summary
 
 This Azure-based architecture provides a production-grade solution for data ingestion, transformation, storage, and monitoring. By using **Azure services** for the core components, **Delta Lake** for storage integrity, and **Airflow** for scheduling, this pipeline is designed to be scalable, reliable, and capable of supporting complex data analytics.
 
